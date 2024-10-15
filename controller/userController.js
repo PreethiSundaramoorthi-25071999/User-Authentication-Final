@@ -2,7 +2,7 @@
 const User = require("../model/userModel");
 
 // Import the bcrypt for hashing passwords
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 // Import the jsonwebtoken for creating JWTs
 const jwt = require("jsonwebtoken");
